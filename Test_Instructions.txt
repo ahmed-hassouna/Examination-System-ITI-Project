@@ -1,0 +1,65 @@
+==========================>> Follow the following steps one by one <<==========================
+
+1-login using windows authentication
+
+2-Run the file called create_Files_And_FileGroups  
+
+3- Run the file called create_tables
+
+4- Run the file called create admin 
+
+5- login as Admin using userName = "Admin" , password = "StrongPassword123"
+
+6- Run the file called Objects_Implmentation 
+
+7- Run the file called Create_Index
+
+8- Run the file called Assign_Permissions_To_Roles and 
+
+8- open testdata file :
+   -->create supermanger , BranchMangers 
+
+9- login as supermangager using userName = "amrtalat" , password = "Password123"
+
+10-open testdata file :
+  --> add branchs,tracks,intakes,departments
+
+10-login as manger using userName = "ahmedOsman" , password = "Password123"
+
+11-open testdata file :
+   --> open tracks in his branch
+
+12-login as admin
+
+13-open testdata file : 
+   --> add the students and instructors 
+
+14-login as manager again using userName = "ahmedOsman" , password = "Password123"
+
+15-open testdata file : 
+   -->Exec  AddCourse , UpdateCourse , DeleteCourse ,assignStudentToCourse
+           SearchStudents , SearchInstructors , SearchBranches with different ways
+
+------------------------------------------------------------------------------------
+16- login as instructor using userName = "inst_sara" ,password = "SaraP@ss123"
+
+17- open testdata file : 
+   --> Exec   sp_addMCQQuestion   , sp_addTFQuestion ,sp_addTextQuestion
+              sp_updateQuestion   , sp_deleteQuestion
+              sp_createRandomExam , sp_createManualExam , sp_updateExam
+              sp_assignExamToCourseStudents
+
+18- login as student using userName = "ahmed@Alaa" ,password = "Ahmed123"
+
+19- open testdata file : 
+    -->Exec vw_CurrentStudentExamQuestions , sp_StudentAnswerQuestion
+------------------------------------------------------------------------------------
+20- login as instructor using userName = "inst_sara" ,password = "SaraP@ss123"
+  
+21- open testdata file : 
+    -->Exec sp_ViewStudentAnswers, sp_CorrectExamManually ,sp_UpdateExamTotalGrade
+
+
+
+
+
