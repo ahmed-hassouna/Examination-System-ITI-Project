@@ -1,7 +1,8 @@
 
 ---
 # Examination System Database – ITI Project
-
+## Schema
+![Examination System Database Schema](./docs/Schema.drawio.png)
 ## 📑 Requirements
 
 ### ✅ Functional
